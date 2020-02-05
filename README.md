@@ -1,6 +1,6 @@
-# Senti-Yelp
-Senti-Yelp is a sentiment mining system to predict ratings given by users based on their reviews. 
-We will be working with Bag-of-Words based TFIDF vector representation of reviews. Over this will use simple classifiers from `sklearn` namely: Naive Bayes, Logistic Regression and SVM.
+# Sentiment Analysis
+This is a sentiment mining system to predict ratings given by users based on their reviews. 
+We will be working with Bag-of-Words based TFIDF vector representation of reviews. Over this will use simple classifiers from `sklearn` namely: Naive Bayes, Logistic Regression and SVM and LSTM if the above does not give good results.
 
 The models and accuracies reported are after training the models on a small subset (100k examples) of Yelp reviews.
 
